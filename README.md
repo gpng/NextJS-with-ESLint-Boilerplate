@@ -1,8 +1,8 @@
-# NextJS with ESLint Boilerplate
+# NextJS with ESLint and Prettier Boilerplate
 
-> NextJS app with ESLint config setup
+> NextJS app with ESLint and prettier config setup
 
-Done to make my life easier when starting nextjs apps.
+Done to make my life easier when starting NextJS apps.
 
 ## Table of Contents
 
@@ -24,13 +24,13 @@ yarn outdated
 for eslint
 
 ```
-npm info "eslint-config-airbnb@latest" peerDependencies
+npx install-peerdeps --dev eslint-config-airbnb
 ```
 
 2. Install dependancies
 
 ```
-yarn dev
+yarn
 ```
 
 3. Run app
