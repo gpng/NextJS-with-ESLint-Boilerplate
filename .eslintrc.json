@@ -1,6 +1,6 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react", "react-hooks"],
-  "plugins": ["prettier"],
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["prettier", "react-hooks"],
   "rules": {
     "prettier/prettier": ["error"],
     "react-hooks/rules-of-hooks": "error",
