@@ -10,11 +10,11 @@ module.exports = {
         loader: 'eslint-loader',
         options: {
           // eslint options (if necessary)
-        },
+        }
       });
     }
     // Important: return the modified config
     return newConfig;
   },
-  webpackDevMiddleware: config => config,
+  webpackDevMiddleware: config => config
 };
