@@ -17,14 +17,14 @@ Done to make my life easier when starting NextJS apps.
 
 2. Review outdated dependancies and upgrade if needed
 
-```
-yarn outdated
-```
-
 for eslint
 
 ```
 npx install-peerdeps --dev eslint-config-airbnb
+```
+
+```
+yarn outdated
 ```
 
 2. Install dependancies
