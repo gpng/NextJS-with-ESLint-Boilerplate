@@ -1,4 +1,6 @@
-module.exports = {
+const withCSS = require('@zeit/next-css');
+
+module.exports = withCSS({
   target: 'serverless',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
@@ -10,11 +12,11 @@ module.exports = {
         loader: 'eslint-loader',
         options: {
           // eslint options (if necessary)
-        }
+        },
       });
     }
     // Important: return the modified config
     return newConfig;
   },
-  webpackDevMiddleware: config => config
-};
+  webpackDevMiddleware: config => config,
+});
