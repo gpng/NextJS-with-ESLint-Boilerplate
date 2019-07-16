@@ -1,7 +1,8 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react"],
+  "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
   "plugins": ["react", "prettier", "react-hooks"],
   "rules": {
+    "prettier/prettier": "error",
     "react/forbid-prop-types": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "react-hooks/rules-of-hooks": "error",
