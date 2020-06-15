@@ -15,5 +15,5 @@ module.exports = {
     // Important: return the modified config
     return newConfig;
   },
-  webpackDevMiddleware: config => config,
+  webpackDevMiddleware: (config) => config,
 };

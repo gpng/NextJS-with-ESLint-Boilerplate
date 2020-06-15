@@ -1,16 +1,21 @@
 import React from 'react';
+// translations
+import useTranslations from '../translations/useTranslations';
 
-const Index = () => (
-  <div className="root">
-    hello world
-    <style jsx>
-      {`
-        .root {
-          position: relative;
-        }
-      `}
-    </style>
-  </div>
-);
+const Index = () => {
+  const { t } = useTranslations();
+
+  return (
+    <div className="root">
+      <h1>{t('index.title')}</h1>
+      <style jsx>
+        {`
+          .root {
+          }
+        `}
+      </style>
+    </div>
+  );
+};
 
 export default Index;
