@@ -1,7 +1,4 @@
-const withCSS = require('@zeit/next-css');
-
-module.exports = withCSS({
-  target: 'serverless',
+module.exports = {
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     const newConfig = config;
@@ -19,4 +16,4 @@ module.exports = withCSS({
     return newConfig;
   },
   webpackDevMiddleware: config => config,
-});
+};

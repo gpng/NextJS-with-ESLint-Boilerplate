@@ -1,5 +1,3 @@
 {
-  "version": 2,
-  "name": "next-eslint-boilerplate",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  "name": "next-eslint-boilerplate"
 }

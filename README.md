@@ -15,29 +15,35 @@ Done to make my life easier when starting NextJS apps.
 
 1. Clone this repo
 
-2. Review outdated dependancies and upgrade if needed
-
-for eslint
-
-```
-npx install-peerdeps --dev eslint-config-airbnb
-```
-
-```
-yarn outdated
-```
-
 2. Install dependancies
 
-```
-yarn
-```
+   ```
+   yarn
+   ```
 
-3. Run app
+3. Review outdated dependancies and upgrade if needed
 
-```
-yarn dev
-```
+   for eslint, airbnb config
+
+   ```
+   npx install-peerdeps --dev eslint-config-airbnb
+   ```
+
+   ```
+   yarn outdated
+   ```
+
+4. Run app
+
+   ```
+   yarn dev
+   ```
+
+   or if you have now-cli installed,
+
+   ```
+   now dev
+   ```
 
 ## Maintainers
 
